@@ -51,8 +51,8 @@ with program() as white_noise:
     play("playOp", "qe1")
 
 #define configurations
-QMm = QuantumMachinesManager(host='saffman-3d65e61c.quantum-machines.co',
-                            port=443, credentials=create_credentials())  #creates a manager instance
+QMm = QuantumMachinesManager(host='###',
+                            port=###, credentials=create_credentials())  #creates a manager instance
 
 QMm.close_all_quantum_machines()
 QM1 = QMm.open_qm(config)
